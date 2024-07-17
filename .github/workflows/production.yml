@@ -43,10 +43,10 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           
-      #- name: Build and push Docker image
-      #  uses: docker/build-push-action@v5
-      #  with:
-      #    push: true
-      #    tags: deepthisanand/hw8_devops_demo:latestimage
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: deepthisanand/devops_demo:latest
 
           # Add other relevant build parameters here
