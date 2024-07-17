@@ -47,6 +47,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/hw8_devops_demo:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/hw8_devops_demo:tagname
 
           # Add other relevant build parameters here
