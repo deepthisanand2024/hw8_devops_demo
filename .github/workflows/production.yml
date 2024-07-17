@@ -47,6 +47,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: deepthisanand/hw8_devops_demo:tagname
+          tags: deepthisanand/hw8_devops_demo:latest
 
           # Add other relevant build parameters here
